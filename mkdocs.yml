@@ -54,9 +54,6 @@ nav:
       - Evaluation Dataset: dataset/evaluation-dataset.md
   - Model Distillation: model-distillation.md
   - Finetuning:
-      - Continual Pre-training: finetuning/continual-pretraining.md
-      - Supervised Finetuning: finetuning/supervised-finetuning.md
-      - Preference Optimization: finetuning/preference-optimization.md
       - Template: finetuning/000_template.md
       - Full Finetuning: finetuning/001_full_finetuning.md
       - LoRA: finetuning/002_lora_finetuning.md
