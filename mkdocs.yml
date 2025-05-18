@@ -9,28 +9,37 @@ repo_name: yoon-gu/potential-meme
 repo_url: https://github.com/yoon-gu/potential-meme
 
 # 테마 설정
+# 테마 설정
+# theme.name을 'readthedocs'로 변경 (원하는 다른 theme도 가능)
+# 테마 설정
+# theme.name을 'mkdocs'로 변경
+# numbering을 위해 navigation.indexes 등 numbering 관련 features 유지
+# 테마 설정
+# theme.name을 'material'로 변경
+# numbering을 위해 navigation.indexes 등 numbering 관련 features 및 material palette 설정 복원
 theme:
   name: material
   language: ko
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.indexes   # 목차에 numbering 추가
     - toc.integrate
     - search.suggest
     - search.highlight
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch-off-outline
         name: 다크 모드로 전환
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch
         name: 라이트 모드로 전환
+# 네비게이션이 사이드에 고정되도록 navigation.top 옵션을 제거하고, 인디고 색상으로 palette를 복원했습니다.
 
 # 확장 기능
 markdown_extensions:
