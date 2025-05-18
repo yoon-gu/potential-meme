@@ -1,0 +1,64 @@
+site_name: Potential Meme Documentation
+
+# 사이트 설명
+site_description: 프로젝트 문서화
+site_author: Yoon-Gu
+
+# 저장소 링크
+repo_name: yoon-gu/potential-meme
+repo_url: https://github.com/yoon-gu/potential-meme
+
+# 테마 설정
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: 라이트 모드로 전환
+
+# 확장 기능
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+# 네비게이션 구조
+nav:
+  - 홈: index.md
+  - Getting Started: getting-started.md
+  - Foundation Models:
+      - Model Catalog: foundation-models/model-catalog.md
+      - Model Deployment: foundation-models/model-deployment.md
+  - Dataset:
+      - Corpus Dataset: dataset/corpus-dataset.md
+      - Instruction Dataset: dataset/instruction-dataset.md
+      - Preference Dataset: dataset/preference-dataset.md
+      - Evaluation Dataset: dataset/evaluation-dataset.md
+  - Model Distillation: model-distillation.md
+  - Finetuning:
+      - Continual Pre-training: finetuning/continual-pretraining.md
+      - Supervised Finetuning: finetuning/supervised-finetuning.md
+      - Preference Optimization: finetuning/preference-optimization.md
+  - Benchmark:
+      - Quality Evaluation: benchmark/quality-evaluation.md
+      - Latency/Throughput Evaluation: benchmark/latency-throughput-evaluation.md
+      - Leaderboard: benchmark/leaderboard.md
+  - Environment Variables: environment-variables.md
