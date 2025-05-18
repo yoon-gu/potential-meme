@@ -57,6 +57,42 @@ nav:
       - Continual Pre-training: finetuning/continual-pretraining.md
       - Supervised Finetuning: finetuning/supervised-finetuning.md
       - Preference Optimization: finetuning/preference-optimization.md
+      - Template: finetuning/000_template.md
+      - Full Finetuning: finetuning/001_full_finetuning.md
+      - LoRA: finetuning/002_lora_finetuning.md
+      - QLoRA: finetuning/003_qlora_finetuning.md
+      - Prefix Tuning: finetuning/004_prefix_tuning.md
+      - Prompt Tuning: finetuning/005_prompt_tuning.md
+      - P-Tuning: finetuning/006_p_tuning.md
+      - Adapter Tuning: finetuning/007_adapter_tuning.md
+      - BitFit Tuning: finetuning/008_bitfit_tuning.md
+      - IA³ Tuning: finetuning/009_ia3_tuning.md
+      - DoRA Tuning: finetuning/010_dora_tuning.md
+      - Unsloth Tuning: finetuning/011_unsloth_tuning.md
+      - Multitask Finetuning: finetuning/012_multitask_finetuning.md
+      - MoE Finetuning: finetuning/013_moe_finetuning.md
+      - RLHF Finetuning: finetuning/014_rlhf_finetuning.md
+      - DPO Finetuning: finetuning/015_dpo_finetuning.md
+      - KTO Finetuning: finetuning/016_kto_finetuning.md
+      - GPT Finetuning: finetuning/017_gpt_finetuning.md
+      - BERT Finetuning: finetuning/018_bert_finetuning.md
+      - T5 Finetuning: finetuning/019_t5_finetuning.md
+      - BART Finetuning: finetuning/020_bart_finetuning.md
+      - RWKV Finetuning: finetuning/021_rwkv_finetuning.md
+      - RetNet Finetuning: finetuning/022_retnet_finetuning.md
+      - Llama Finetuning: finetuning/023_llama_finetuning.md
+      - Alpaca Finetuning: finetuning/024_alpaca_finetuning.md
+      - Vicuna Finetuning: finetuning/025_vicuna_finetuning.md
+      - MPT Finetuning: finetuning/026_mpt_finetuning.md
+      - Baichuan Finetuning: finetuning/027_baichuan_finetuning.md
+      - Phi Finetuning: finetuning/028_phi_finetuning.md
+      - Mixtral Finetuning: finetuning/029_mixtral_finetuning.md
+      - FlashAttention: finetuning/030_flash_attention.md
+      - Latte Finetuning: finetuning/031_latte_finetuning.md
+      - DeepSpeed Finetuning: finetuning/032_deepspeed_finetuning.md
+      - QLoRA SFT: finetuning/033_qlora_sft.md
+      - AdapterFusion: finetuning/034_adapterfusion.md
+      - Hypernetwork Finetuning: finetuning/035_hypernetwork_finetuning.md
   - Benchmark:
       - Quality Evaluation: benchmark/quality-evaluation.md
       - Latency/Throughput Evaluation: benchmark/latency-throughput-evaluation.md
